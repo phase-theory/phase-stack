@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "phase-u1-sim"
+version = "0.1.0"
+description = "Minimal U(1) phase-functional simulator for topological defects and emergent observables"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["numpy>=1.23", "matplotlib>=3.6", "pyyaml>=6.0"]
+
+[project.scripts]
+phase-u1 = "phase_u1_sim.cli:main"

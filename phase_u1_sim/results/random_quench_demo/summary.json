@@ -1,0 +1,21 @@
+{
+  "energy_initial": 8140.491545141807,
+  "energy_final": 248.09367803996324,
+  "vortices_final": {
+    "positive": 12,
+    "negative": 12,
+    "net": 0,
+    "total_abs": 24
+  },
+  "outputs": [
+    "correlation.npz",
+    "correlation.png",
+    "defects.png",
+    "energy_history.png",
+    "history.npz",
+    "phase_field.png",
+    "strain_field.png",
+    "theta_final.npy",
+    "vortex_count.png"
+  ]
+}
